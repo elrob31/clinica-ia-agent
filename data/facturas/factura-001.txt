@@ -1,0 +1,19 @@
+SUMINISTROS SANITARIOS TEIDE S.L.
+CIF: B38123456
+C/ Castillo 12, 38002 Santa Cruz de Tenerife
+
+FACTURA Nº: 2026-0417
+Fecha: 14/10/2026
+
+Cliente: Clínica Atlántica
+
+Concepto                         Cant.   Precio    Importe
+Vendas neuromusculares 5cm         20     4,50      90,00
+Gel conductor 5L                    3    12,00      36,00
+Camilla plegable aluminio           1   189,00     189,00
+
+Base imponible:                                   315,00
+IGIC 7%:                                           22,05
+TOTAL:                                            337,05
+
+Forma de pago: transferencia a 30 días
