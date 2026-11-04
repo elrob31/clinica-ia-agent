@@ -1,0 +1,35 @@
+[project]
+name = "clinica-ia-agent"
+version = "0.1.0"
+description = "Agente LLM para clínicas: extracción de facturas, RAG sobre documentación interna y orquestación multi-proveedor con LangChain."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Roberto García Caldas" }]
+dependencies = [
+    "langchain>=1.0",
+    "langchain-core>=1.0",
+    "langchain-text-splitters>=0.3",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+openai = ["langchain-openai>=0.3"]
+anthropic = ["langchain-anthropic>=0.3"]
+google = ["langchain-google-genai>=2.0"]
+todos = ["langchain-openai>=0.3", "langchain-anthropic>=0.3", "langchain-google-genai>=2.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+clinica-ia = "clinica_ia.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
