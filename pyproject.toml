@@ -18,7 +18,7 @@ openai = ["langchain-openai>=0.3"]
 anthropic = ["langchain-anthropic>=0.3"]
 google = ["langchain-google-genai>=2.0"]
 todos = ["langchain-openai>=0.3", "langchain-anthropic>=0.3", "langchain-google-genai>=2.0"]
-dev = ["pytest>=8.0"]
+dev = ["pytest>=8.0", "numpy>=1.26"]
 
 [project.scripts]
 clinica-ia = "clinica_ia.cli:main"
