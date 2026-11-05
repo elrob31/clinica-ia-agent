@@ -47,7 +47,7 @@ Resuelve tres problemas reales de una clínica pequeña:
 ## Instalación
 
 ```bash
-git clone https://github.com/<tu-usuario>/clinica-ia-agent.git
+git clone https://github.com/elrob31/clinica-ia-agent.git
 cd clinica-ia-agent
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[todos,dev]"
